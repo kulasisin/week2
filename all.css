@@ -1,0 +1,268 @@
+@import url("https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&display=swap");
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+  /* outline: 1px solid green; */
+}
+body {
+  font-size: 16px;
+  font-family: "Bruno Ace SC";
+  line-height: 1.5;
+}
+
+a {
+  text-decoration: none;
+  color: #d1d1d1;
+}
+
+.container {
+  max-width: 1296px;
+  margin: 0 auto;
+}
+header {
+  background-color: #000000;
+}
+.menu {
+  display: flex;
+  padding: 40px 0 24px;
+  justify-content: space-between;
+}
+
+.menu a:hover {
+  opacity: 60%;
+}
+.menu li {
+  width: 306px;
+}
+
+.menu li:nth-child(4) {
+  width: 196px;
+  text-align: right;
+}
+
+.banner {
+  background-color: #000000;
+}
+
+.cover {
+  display: flex;
+  justify-content: space-between;
+}
+.photo {
+  padding: 72px 0;
+}
+.photo img {
+  display: block;
+  width: 636px;
+}
+.title-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+h1 {
+  color: #fff;
+  font-size: 64px;
+}
+.title-info .name {
+  color: #00ffa3;
+  font-size: 128px;
+  text-align: right;
+}
+
+.contact-button {
+  align-self: flex-end;
+  align-items: center;
+}
+
+.contact-button img {
+  width: 13px;
+}
+.contact-button a {
+  display: block;
+  padding: 12px 24px;
+  text-align: center;
+  color: #000;
+  background-color: #fff;
+  border-radius: 50px;
+  font-size: 16px;
+}
+
+.contact-button a:hover {
+  opacity: 60%;
+  cursor: pointer;
+}
+
+.intro {
+  background: url(https://github.com/hexschool/2022-web-layout-training/blob/main/2023week2/background-img.png?raw=true);
+}
+.intro-content {
+  display: flex;
+  padding: 160px 0;
+}
+
+.intro-text {
+  color: #fff;
+  width: 526px;
+  margin-right: 24px;
+}
+
+.intro-text h2 {
+  font-size: 64px;
+  margin-bottom: 36px;
+}
+.intro-text p {
+  font-size: 24px;
+  margin-bottom: 32px;
+}
+.dimonds img {
+  margin-right: 16px;
+  width: 32px;
+}
+
+.intro-img {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.about-me {
+  color: #15161d;
+  display: flex;
+  justify-content: space-between;
+}
+.about-card {
+  display: flex;
+  flex-wrap: wrap;
+  width: 636px;
+  gap: 24px;
+  margin-top: 206px;
+  margin-bottom: 214px;
+}
+.about-card li {
+  width: 306px;
+  border: 1px solid #e3e3e3;
+  box-shadow: 4px 4px 4px 0px #00000014;
+  padding: 16px;
+}
+
+.about-card span {
+  font-size: 20px;
+  margin-bottom: 4px;
+  display: inline-block;
+}
+
+.about-card h3 {
+  font-size: 20px;
+  margin-bottom: 4px;
+}
+
+.about-me-text {
+  width: 526px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 160px 0;
+}
+.about-me-text h2 {
+  font-size: 64px;
+  margin-bottom: 36px;
+  margin-right: 28.5px;
+  color: #000000;
+}
+.about-me-text p {
+  font-size: 24px;
+}
+.contact {
+  background: linear-gradient(180deg, #050014 0%, rgba(1, 2, 30, 0.89) 100%);
+}
+.contact-content {
+  display: flex;
+  align-items: center;
+  padding-top: 96px;
+  padding-bottom: 96px;
+
+  justify-content: space-between;
+}
+.contact h2 {
+  font-size: 64px;
+  color: #fff;
+}
+.contact-icon img {
+  max-width: 100%;
+  height: auto;
+  object-fit: cover;
+  vertical-align: bottom;
+}
+.contact-icon img:hover {
+  opacity: 60%;
+}
+
+.mr-20 {
+  margin-right: 20px;
+}
+.project {
+  margin-top: 160px;
+}
+.project h2 {
+  font-size: 64px;
+  margin-left: auto;
+  width: 746px;
+}
+.project-content {
+  display: flex;
+}
+
+.project-wrapper-right {
+  display: flex;
+  flex-direction: column;
+  width: 65%;
+}
+.project-image-1 {
+  display: flex;
+  margin-right: 24px;
+}
+.project-image-2 {
+  display: flex;
+  margin-bottom: 24px;
+}
+.project-image-2 img {
+  margin-right: 24px;
+}
+.project-image-2 p {
+  font-size: 16px;
+}
+
+.project-image-3 {
+  display: flex;
+}
+.mr-24 {
+  margin-right: 24px;
+}
+
+.project-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.project-text .contact-button {
+  display: flex;
+  align-self: start;
+}
+.project-text .contact-button a {
+  background-color: #000;
+  color: #fff;
+}
+
+.image-4 {
+  max-width: 60%;
+}
+
+.footer p {
+  padding: 40px 0;
+  text-align: center;
+  color: #fff;
+}
+.footer {
+  background-color: #000;
+}
